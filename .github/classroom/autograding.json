@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Spring",
-      "setup": "",
+      "setup": "mvn compile",
       "run": "mvn test",
       "input": null,
       "output": null,
