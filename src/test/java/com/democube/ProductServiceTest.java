@@ -25,7 +25,7 @@ class ProductServiceTest {
     public void testCreateNewProduct() {
         Product product = productService.newProduct("Queso", 17.5);
         assertEquals("Queso", product.getName());
-        assertEquals(17.3, product.getPrice());
+        assertEquals(17.5, product.getPrice());
     }
 
     @Test
